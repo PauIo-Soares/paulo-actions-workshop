@@ -5,8 +5,8 @@ on:
 
 jobs:
   greet:
-      env:
-          MY_ENV: "JPaulo"
+    env:
+      MY_ENV: "JPaulo"
     runs-on: ubuntu-latest
     steps:
       - name: Greet the User
